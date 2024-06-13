@@ -1,4 +1,4 @@
-name: Cypress Tests2
+name: Cypress Tests3
 
 on: [workflow_dispatch]
 
