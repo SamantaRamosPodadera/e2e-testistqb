@@ -28,7 +28,7 @@ jobs:
 
       - name: Install Dependencies
         id: install-dependencies
-        run: npm install
+        run: npm upgrade && npm install
 
       - name: Run E2E Tests Desktop
         id: e2e-desktop
