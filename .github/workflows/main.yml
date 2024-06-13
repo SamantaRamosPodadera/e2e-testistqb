@@ -28,7 +28,7 @@ jobs:
 
       - name: Install Dependencies
         id: install-dependencies
-        run: npm upgrade && npm install
+        run: npm install
 
       - name: Run E2E Tests Desktop
         id: e2e-desktop
@@ -68,5 +68,4 @@ jobs:
         with:
           name: cucumber-report-mobile
           path: cucumber-report.html
-        
         
