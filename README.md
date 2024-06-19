@@ -22,7 +22,7 @@ With Visual Studio Code:
 
 With Command line:
 Download the project (Download Zip File)
-Open the project folder in a terminal: cd cypress-bootcampqa
+Open the project folder in a terminal: cd cypress-e2e-testistqb
 Execute node comand in a terminal: npm i
 
 ## Run tests in local:
