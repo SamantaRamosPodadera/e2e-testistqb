@@ -7,9 +7,9 @@ import {
 
   When("the student enters the name {string}", (name) => {
     //borrar un elemento input
-    cy.get('[data-cy="input-welcome-name"]').clear();
+    cy.get('[data-cy="input-nombre-1"]').clear();
     //escribir en el elemento input
-    cy.get('[data-cy="input-welcome-name"]').type(name);
+    cy.get('[data-cy="input-nombre-1"]').type(name);
 
   }); 
 
@@ -20,5 +20,5 @@ import {
 
 
   Then("the student should see the message {string}", (welcomeMessage) => {
-    cy.get('[data-cy="welcome-message"]').should('have.text', welcomeMessage);
+    cy.get('[data-cy="respuesta-Bienvenida"]').should('have.text', welcomeMessage);
   }); 
