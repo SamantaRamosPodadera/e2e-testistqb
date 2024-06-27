@@ -22,3 +22,7 @@ import {
   Then("the student should see the message {string}", (welcomeMessage) => {
     cy.get('[data-cy="respuesta-Bienvenida"]').should('have.text', welcomeMessage);
   }); 
+
+Then('the student should see the error welcome message {string}', (errorMessage) => {
+  cy.get('[data-cy="error-welcome-message"]').should('contain.text', errorMessage);
+})

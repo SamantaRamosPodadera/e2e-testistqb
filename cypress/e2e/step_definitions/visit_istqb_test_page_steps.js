@@ -6,8 +6,6 @@ import {
 
 
   Given("the student is on the ISTQB exam page", () => {
-    //Visitar una pagina web diferente a la que este en base url
-    //cy.visit("https://bootcampqa.com/");
 
     //Cuando esta definida en cypress.config.js la baseurl 
     cy.visit("/");
