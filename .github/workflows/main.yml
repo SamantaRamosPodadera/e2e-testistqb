@@ -1,6 +1,12 @@
 name: Cypress Tests
 
-on: [workflow_dispatch]
+on:
+  push:
+    branches:
+      - main  # O especifica la rama en la que deseas que se ejecute después de un push
+  schedule:
+    - cron: '0 0 * * 1'  # Esto ejecuta el flujo de trabajo todos los lunes a la medianoche (UTC)
+  workflow_dispatch:  # Permite ejecutar el flujo de trabajo manualmente
 
 jobs:
   cypress-run:
