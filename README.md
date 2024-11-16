@@ -31,5 +31,5 @@ Execute node comand in a terminal: npm i
 
 
 ##  Run tests on CI with github Actions:
-1. Run tests on CI: https://github.com/Samanta1984/e2e-testistqb/actions/workflows/main.yml
+1. Run tests on CI: https://github.com/Samantaramospodadera/e2e-testistqb/actions/workflows/main.yml
 2. See test results on Cypress Cloud: https://cloud.cypress.io/projects/brpb4n/

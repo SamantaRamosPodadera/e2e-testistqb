@@ -23,7 +23,7 @@ module.exports = defineConfig({
     setupNodeEvents,
     specPattern: "cypress/e2e/features/*.feature",
     projectId: "brpb4n",
-    baseUrl: "https://samanta1984.github.io/istqb-online-test/",
+    baseUrl: "https://samantaramospodadera.github.io/istqb-online-test/",
     chromeWebSecurity: true
   },
 });
